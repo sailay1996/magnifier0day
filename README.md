@@ -6,7 +6,7 @@ Windows 10 Privilege Escalation (magnifier.exe) via Dll Search Order Hijacking
 1. copy payload dll as igdgmm64.dll to SYSTEM path %PATH% which is writeable such as C:\python27
 2. Press WinKey+L  
 3. Press Enter
-4. Press WinKey++(plusKey) on login screen.<br>
+4. Press WinKey++(plusKey) on login screen which show password box.<br>
 then payload dll will execute as SYSTEM access.
 
 #### Noted: Use this for finding paths 
