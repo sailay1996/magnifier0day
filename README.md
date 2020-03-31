@@ -1,5 +1,5 @@
 # magnifier0day
-Windows 10 Privilege Escalation (magnifier.exe) via Dll Search Order Hijacking
+Windows 10 Privilege Escalation (magnify.exe) via Dll Search Order Hijacking
 
 ### steps:
 
