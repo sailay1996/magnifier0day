@@ -1,6 +1,8 @@
 # magnifier0day
 Windows 10 Privilege Escalation (magnify.exe) via Dll Search Order Hijacking
 
+***Some of the ppl will say this is not vuln because of default system paths %path% but most of the user have the user writeable path in SYSTEM %PATH% then we can exploit it.***
+
 ### steps:
 1. copy payload dll as igdgmm64.dll to SYSTEM path %PATH% which is writeable such as C:\python27
 2. Press WinKey+L  
