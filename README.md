@@ -1,6 +1,8 @@
 # magnifier0day
 Windows 10 Privilege Escalation (magnify.exe) via Dll Search Order Hijacking
 
+*can exploit every windows which installed intel Driver.*
+
 ***Some of the ppl will say this is not vuln because of default system paths %path% but most of the user have the user writeable path in SYSTEM %PATH% then we can exploit it.***
 
 ### steps:
